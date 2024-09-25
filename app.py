@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.file_uploader(label='master')
+file = st.file_uploader(label='master')
+
+if file:
+  if st.button("Save")
