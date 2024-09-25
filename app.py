@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.file_uploader()
+st.file_uploader(label='master')
