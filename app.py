@@ -92,3 +92,4 @@ with tab2:
             
             # Save updated DataFrame back to JSON
             data.to_json('data.json', orient='records', lines=False)  # Save as JSON
+            st.rerun()
